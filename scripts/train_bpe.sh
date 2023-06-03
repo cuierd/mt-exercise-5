@@ -6,8 +6,6 @@ base=$scripts/..
 models=$base/models
 configs=$base/configs
 
-mkdir -p $models
-
 num_threads=4
 
 # measure time
@@ -16,7 +14,7 @@ SECONDS=0
 
 logs=$base/logs
 
-model_name=?
+model_name=transformer_iten_bpe_2000
 
 mkdir -p $logs
 
